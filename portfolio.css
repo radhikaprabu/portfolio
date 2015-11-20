@@ -1,0 +1,87 @@
+/*!
+ * Start Bootstrap - One Page Wonder HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+	position: relative;
+}
+
+section {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#about{
+	margin-top: -20px;
+}
+.jumbotron img{
+	padding-bottom: 20px; 
+	padding-top: 20px;
+}
+
+p{
+	padding-bottom: 20px; 
+	padding-top: 20px;
+}
+
+#skills{
+	margin-top: -50px;
+}
+
+.list-group{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.navbar-nav {
+        display: table;
+        float: none;
+        margin: 0 auto;
+        table-layout: fixed;
+        font-size: 1.25em;
+    }
+h4 {
+	text-align: center;
+	
+}
+
+
+.portfolio-image {
+	display: block;
+	margin: 0px auto;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.third {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	
+}
+
+#email #phone{
+	font-size: 1.5em;
+}
+
+footer p {
+	text-align: center;
+}
+	 
+
+
+@media screen and (max-width:768px){
+	.brand {
+		display: none;
+	}
+}
+
+@media screen and (min-width:768px){
+	.navbar-header {
+        display: none;
+    }
+}
+	
+	
