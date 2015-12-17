@@ -81,11 +81,21 @@ p{
 	background-color: white;
 }
 
+#gallery {
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+
+.portfolio-image:hover {
+	box-shadow: 5px 5px 5px #777777;
+	
+}
+
 .portfolio-image {
 	display: block;
 	margin: 0px auto;
-	padding-bottom: 40px;
-	padding-top: 40px;
+	padding: 20px;
+	
 }
 
 #contact {
@@ -109,8 +119,13 @@ a.email, a.mobile {
 	font-size: 1.5em;
 	color: white;
 	padding-left: 20px;
+	
 }
 
+.email:hover{
+	color: #5a341c;
+	transition: all .3s ease-in-out;
+}
 .web {
 	font-size: 1.5em;
 	color: white;
@@ -124,10 +139,14 @@ a.email, a.mobile {
 	text-align: center;
 }
 
- .btn-social {
+.btn-social{
 	color: white;
+}
+ .btn-social:hover{
+	color: #5a341c;
 	transition: all .3s ease-in-out;
 }
+
 
 footer p {
 	text-align: center;
@@ -139,13 +158,23 @@ footer {
 }
 
 .resume {
+	display: block;
 	text-align: center;
 	font-size: 1.5em;
+	color: white;
 }
 
-.resume a {
+a.resume  {
 	text-decoration: none;
 }
+
+
+.resume:hover{
+	color: #5a341c;
+	transition: all .3s ease-in-out;
+}
+
+
 @media screen and (min-width:991px){
 	
 	.navbar-header {
