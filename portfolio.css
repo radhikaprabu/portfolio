@@ -142,6 +142,8 @@ a.email, a.mobile {
 .btn-social{
 	color: white;
 }
+
+
  .btn-social:hover{
 	color: #5a341c;
 	transition: all .3s ease-in-out;
@@ -168,8 +170,7 @@ a.resume  {
 	text-decoration: none;
 }
 
-
-.resume:hover{
+a.resume:hover{
 	color: #5a341c;
 	transition: all .3s ease-in-out;
 }
